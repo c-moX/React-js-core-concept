@@ -16,7 +16,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>Hello! <code>ReactApp,</code> You are welcome!</p>
+        <h2>Component, Props, useState, and useEffect (API)</h2>
 
         {/* Display Dynamic Code Is Here (01) */}
         {
