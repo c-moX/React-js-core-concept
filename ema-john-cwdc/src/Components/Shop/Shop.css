@@ -1,0 +1,66 @@
+.shop-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product-container {
+    width: 70%;
+    margin-left: 200px;
+    margin-right: 5px;
+    border-right: 1px solid lightgray;
+    padding-right: 10px;
+}
+
+
+/* Mobile devices (Large, Medium, Small, 425px and up) */
+@media (max-width: 426px) {
+    .product-container{
+        width: 100%;
+        margin-left: 20px;
+        border-right: none;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    .product-container{
+        width: 60%;
+        margin-left: 10px;
+    }
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .product-container{
+        width: 60%;
+        margin-left: 20px;
+        border-right: 1px solid lightgray;
+    }
+}
+
+/* Medium devices (Laptop, 1024px and up) */
+@media (min-width: 1024px) {
+    .product-container{
+        width: 65%;
+        margin-left: 50px;
+        border-right: 1px solid lightgray;
+    }
+}
+
+/* large devices (Laptop, 1440px and up) */
+@media (min-width: 1440px) {
+    .product-container{
+        width: 65%;
+        margin-left: 200px;
+        border-right: 1px solid lightgray;
+    }
+}
+
+/* Extra large devices (4k, 2560px and up) */
+@media (min-width: 2560px) {
+    .product-container{
+        width: 60%;
+        margin-left: 250px;
+        font-size: 24px;
+    }
+}
