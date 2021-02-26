@@ -94,7 +94,7 @@ function Users(){
       <h3>Dynamic Users: {users.length}</h3>
       <ol>
         {
-          users.map(user => <li>{user.name}</li>)
+          users.map(user => <li>{user.name}</li>) // key = {user.id}
         }
       </ol>
     </div>
