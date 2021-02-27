@@ -1,6 +1,6 @@
 import React from 'react'; //React module
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome' //FontAwesome Icons
-import { faCoffee,faShoppingCart } from '@fortawesome/free-solid-svg-icons' //FontAwesome Icons
+import { faShoppingCart } from '@fortawesome/free-solid-svg-icons' //FontAwesome Icons
 import './Product.css'; //Main Styles
 
 const Product = (props) => {

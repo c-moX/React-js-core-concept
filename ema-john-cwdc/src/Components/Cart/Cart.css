@@ -1,0 +1,30 @@
+.cart-review {
+    margin-left: 25px;
+    line-height: 15px;
+    font-weight: 400;
+}
+
+.cart-detail span {
+    color: #f01c1c;
+    font-size: 20px;
+    float: right;
+    text-align: center;
+}
+
+.cart-total h3 {
+    color: #cf1111;
+}
+
+.cart-total span {
+    float: right;
+}
+
+.cart-total .review-btn {
+    color: #000;
+    border: 1px solid #928d8d;
+    border-radius: 5px;
+    padding: 3px 60px;
+    background-color: #f0c14b;
+    vertical-align: middle;
+    cursor: pointer;
+}
